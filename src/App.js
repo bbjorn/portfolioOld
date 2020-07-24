@@ -6,42 +6,13 @@ import PortFooter from "./components/PortFooter";
 function App() {
   return (
     <React.Fragment>
-      <PortHeader />
+      <PortHeader
+        position="Interaction Designer and Developer"
+        name="Björn Bergqvist"
+      />
       <div className="App">
         <h1>My react portfolio</h1>
         <h2>Author: Björn Bergqvist </h2>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
-        <p> This is a test line </p>
         <p> This is a test line </p>
       </div>
       <PortFooter
