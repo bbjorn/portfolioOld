@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/header.css";
 
-function PortHeader(props) {
+function Header(props) {
   const { name, position } = props;
   return (
     <div className="header">
@@ -11,4 +11,4 @@ function PortHeader(props) {
   );
 }
 
-export default PortHeader;
+export default Header;

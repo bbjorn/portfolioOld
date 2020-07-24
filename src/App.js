@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import PortHeader from "./components/PortHeader";
-import PortFooter from "./components/PortFooter";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <React.Fragment>
-      <PortHeader
+      <Header
         position="Interaction Designer and Developer"
         name="Björn Bergqvist"
       />
@@ -15,7 +15,7 @@ function App() {
         <h2>Author: Björn Bergqvist </h2>
         <p> This is a test line </p>
       </div>
-      <PortFooter
+      <Footer
         linkedIn="bjrn-bergquist"
         email="bjrn.bergqvist@gmail.com"
         phonenumber="(+46) 073-3809927"
