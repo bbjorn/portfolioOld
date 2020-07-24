@@ -4,7 +4,7 @@ import linkedInIcon from "../img/contacticons/LI-In-Bug.png";
 import emailIcon from "../img/contacticons/email.png";
 import phoneIcon from "../img/contacticons/phone.png";
 
-function PortFooter(props) {
+function Footer(props) {
   const { email, linkedIn, phonenumber } = props;
   return (
     <div className="footer">
@@ -41,4 +41,4 @@ function PortFooter(props) {
   );
 }
 
-export default PortFooter;
+export default Footer;
