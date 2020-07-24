@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/footer.css";
+import "../index.css";
 import linkedInIcon from "../img/contacticons/LI-In-Bug.png";
 import emailIcon from "../img/contacticons/email.png";
 import phoneIcon from "../img/contacticons/phone.png";
@@ -9,7 +10,7 @@ function Footer(props) {
   return (
     <div className="footer">
       <h2 className="footer-h2"> Contact </h2>
-      <ul className="footer-inside">
+      <ul className="footer-inside dynamic-scaling">
         <li>
           <a
             className="footer-link"
@@ -25,7 +26,7 @@ function Footer(props) {
         </li>
         <li>
           <a className="footer-link" href={"mailto:" + email}>
-            <img className="footer-icon" src={emailIcon} alt="Email Icon" />{" "}
+            <img className="footer-icon" src={emailIcon} alt="Email Icon" />
             Email
           </a>
         </li>

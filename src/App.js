@@ -1,7 +1,8 @@
 import React from "react";
-import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import FrontPage from "./components/FrontPage";
+import "./css/textstyles.css";
 
 function App() {
   return (
@@ -10,11 +11,7 @@ function App() {
         position="Interaction Designer and Developer"
         name="Björn Bergqvist"
       />
-      <div className="App">
-        <h1>My react portfolio</h1>
-        <h2>Author: Björn Bergqvist </h2>
-        <p> This is a test line </p>
-      </div>
+      <FrontPage title="Interaction Design Graduate" name="Björn Bergqvist" />
       <Footer
         linkedIn="bjrn-bergquist"
         email="bjrn.bergqvist@gmail.com"
