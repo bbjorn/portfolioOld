@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/footer.css";
 import "../index.css";
+import "../css/textstyles.css";
 import linkedInIcon from "../img/contacticons/LI-In-Bug.png";
 import emailIcon from "../img/contacticons/email.png";
 import phoneIcon from "../img/contacticons/phone.png";
@@ -9,7 +10,7 @@ function Footer(props) {
   const { email, linkedIn, phonenumber } = props;
   return (
     <div className="footer">
-      <h2 className="footer-h2"> Contact </h2>
+      <h2 className="h2-box"> Contact </h2>
       <ul className="footer-inside dynamic-scaling">
         <li>
           <a

@@ -11,6 +11,7 @@ function App() {
         position="Interaction Designer and Developer"
         name="Björn Bergqvist"
       />
+      <h2 className="h2-box">Placeholder for the navbar</h2>
       <FrontPage title="Interaction Design Graduate" name="Björn Bergqvist" />
       <Footer
         linkedIn="bjrn-bergquist"
