@@ -6,6 +6,8 @@ import FrontPage from "./components/FrontPage";
 import AboutMe from "./components/AboutMe";
 import Code from "./components/Code";
 import Design from "./components/Design";
+import Navbar from "./components/Navbar";
+import NotFound from "./components/NotFound";
 import "./css/textstyles.css";
 
 function App() {
@@ -15,14 +17,17 @@ function App() {
         position="Interaction Designer and Developer"
         name="Björn Bergqvist"
       />
-      <h2 className="h2-box">Placeholder for the navbar</h2>
+      <Navbar />
 
       <main className="container">
         <Switch>
-          <Route path="/design" component={Design} />
-          <Route path="/code" component={Code} />
-          <Route path="/aboutme" component={AboutMe} />
-          <Route path="/" component={FrontPage} />
+          <Route path="/portfolio/design" component={Design} />
+          <Route path="/portfolio/code" component={Code} />
+          <Route path="/portfolio/aboutme" component={AboutMe} />
+          <Route path="/portfolio/start" component={FrontPage} />
+          <Route path="/portfolio/notfound" component={NotFound} />
+          <Redirect from="/portfolio/" exact to="/portfolio/start" />
+          <Redirect to="/portfolio/notfound" />
         </Switch>
       </main>
       <Footer
