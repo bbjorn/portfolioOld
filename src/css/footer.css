@@ -13,21 +13,6 @@
   height: 18pt;
 }
 
-.footer-link {
-  color: rgb(145, 160, 175);
-  font-family: "bree_serifregular", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 900;
-}
-
-.footer-text {
-  color: #444444;
-  line-height: 32px;
-  font-family: "bree_serifregular", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 100;
-}
-
 .footer-copyright-link {
   color: rgb(145, 160, 175);
   font-family: "bree_serifregular", Helvetica, Arial, sans-serif;
