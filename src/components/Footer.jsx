@@ -14,7 +14,7 @@ function Footer(props) {
       <ul className="footer-inside dynamic-scaling">
         <li>
           <a
-            className="footer-link"
+            className="footer-li"
             href={"https://www.linkedin.com/in/" + linkedIn + "/"}
           >
             <img
@@ -26,12 +26,12 @@ function Footer(props) {
           </a>
         </li>
         <li>
-          <a className="footer-link" href={"mailto:" + email}>
+          <a className="footer-li" href={"mailto:" + email}>
             <img className="footer-icon" src={emailIcon} alt="Email Icon" />
             Email
           </a>
         </li>
-        <li className="footer-text">
+        <li className="footer-li footer-text">
           <img className="footer-icon" src={phoneIcon} alt="Phone Icon" />
           {phonenumber}
         </li>

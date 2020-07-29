@@ -30,9 +30,14 @@ h3 {
 }
 
 a {
-  color: #444444;
-  line-height: 32px;
+  color: rgb(145, 160, 175);
   font-family: "bree_serifregular", Helvetica, Arial, sans-serif;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
