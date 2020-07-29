@@ -2,6 +2,11 @@
 .navbar {
   background-color: rgb(145, 160, 175);
   padding: 8px 0px;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  position: -webkit-sticky; /* safari */
+  position: sticky;
 }
 
 /*
