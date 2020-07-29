@@ -1,6 +1,8 @@
 .footer {
   background-color: rgb(235, 240, 245);
   padding: 0 0 60px 0;
+  bottom: 0;
+  width: 100%;
 }
 .footer-inside {
   margin: 0 auto;
@@ -21,7 +23,7 @@
 .footer-li {
   display: flex;
   align-items: center;
-  margin-bottom: 6px;
+  margin: 6px 0px;
 }
 
 .footer-text {
