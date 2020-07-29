@@ -1,7 +1,11 @@
 import React from "react";
+import { Route, Switch, Redirect } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import FrontPage from "./components/FrontPage";
+import AboutMe from "./components/AboutMe";
+import Code from "./components/Code";
+import Design from "./components/Design";
 import "./css/textstyles.css";
 
 function App() {
@@ -12,7 +16,15 @@ function App() {
         name="Björn Bergqvist"
       />
       <h2 className="h2-box">Placeholder for the navbar</h2>
-      <FrontPage title="Interaction Design Graduate" name="Björn Bergqvist" />
+
+      <main className="container">
+        <Switch>
+          <Route path="/design" component={Design} />
+          <Route path="/code" component={Code} />
+          <Route path="/aboutme" component={AboutMe} />
+          <Route path="/" component={FrontPage} />
+        </Switch>
+      </main>
       <Footer
         linkedIn="bjrn-bergquist"
         email="bjrn.bergqvist@gmail.com"
