@@ -22,7 +22,7 @@ function App() {
           />
           <Navbar />
 
-          <main>
+          <main className="mainstyle-outer dynamic-scaling">
             <Switch>
               <Route path="/portfolio/design" component={Design} />
               <Route path="/portfolio/code" component={Code} />
