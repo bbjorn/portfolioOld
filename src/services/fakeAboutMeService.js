@@ -9,6 +9,7 @@ const aboutMe = [
       "I am a social and creative person who likes to get things done, and my friends have often described me as a ”doer”. I also have leadership experience from my time of being chairman in the Student Educational Committee and as a member of the Student Division Board, and I enjoy working with other people a lot. I have done some design work for companies twice through different courses at Chalmers and once as a part time job where I was coaching a fifth grade class during a design competition.",
     ],
     image: me,
+    imageAlt: "A picture of me",
   },
   {
     _id: 2,
